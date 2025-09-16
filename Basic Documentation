@@ -1,1 +1,11 @@
+This method hides an element completely, removing it from the document flow and preventing it from taking up any space. to hide an element.
+JavaScript:
+
+    document.getElementById("yourElementId").style.display = "none";
+
+
+To show an element.
+JavaScript:
+
+    document.getElementById("yourElementId").style.display = "block"; // or "inline", "flex", etc., depending on the element's default display type
 
